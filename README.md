@@ -1,9 +1,10 @@
 # 🧠 SYN-TITAN: Synthetic Tabular Intelligence using Transformers and Adversarial Networks
 
-> The **Auto Audience Generator** is a smart, LLM-powered tool designed to automatically generate targeted user audiences from natural language prompts using a structured **Knowledge Graph (KG)**, rule-based filtering, and semantic matching.
+> **SYN-TITAN** is an innovative hybrid framework that combines **Large Language Models (LLMs)** with **Generative Adversarial Networks (GANs)** to generate realistic, privacy-preserving synthetic tabular data. It uses LLM-driven feature understanding and logical constraints to guide GAN training for improved data fidelity, semantic integrity, and rare category representation.
 
+---
 
-## 📝 Overview
+## ✨ Overview
 
 **SYN-TITAN** is a hybrid LLM-GAN framework for high-fidelity, privacy-preserving synthetic tabular data generation. It integrates large language models (LLMs) for feature conditioning and logical constraint enforcement within CTGAN training pipelines.
 
