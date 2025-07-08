@@ -1,6 +1,7 @@
-# SYN-TITAN: Synthetic Tabular Intelligence using Transformers and Adversarial Networks
+# 🧠 SYN-TITAN: Synthetic Tabular Intelligence using Transformers and Adversarial Networks
 
-![License](https://img.shields.io/badge/license-MIT-green)
+> The **Auto Audience Generator** is a smart, LLM-powered tool designed to automatically generate targeted user audiences from natural language prompts using a structured **Knowledge Graph (KG)**, rule-based filtering, and semantic matching.
+
 
 ## 📝 Overview
 
