@@ -1,0 +1,31 @@
+<|assistant|>
+```json
+{
+  "important_features": ["age", "capital-gain", "hours-per-week", "education-num", "capital-loss"],
+  "logical_constraints": [
+    {
+      "rule": "If education level is PhD, age must be at least 25.",
+      "type": "conditional",
+      "features_involved": ["education", "age"]
+    },
+    {
+      "rule": "Hours per week worked should be between 0 and 60 for realistic scenarios.",
+      "type": "range",
+      "features_involved": ["hours-per-week"]
+    },
+    {
+      "rule": "Income should be higher for those with more education and higher work hours.",
+      "type": "relationship",
+      "features_involved": ["education", "hours-per-week", "income"]
+    }
+  ],
+  "augmentation_suggestions": [
+    "Combining 'education' and 'education-num' to create a more granular educational level feature.",
+    "Normalizing 'hours-per-week' by 'capital-gain' to capture work-life balance impact on income."
+  ],
+  "rare_category_handling": [
+    "Impute rare categories in 'race' and 'native-country' with a combined 'unknown' category.",
+    "Use majority voting for 'occupation' and 'relationship' to fill in missing values."
+  ]
+}
+```
