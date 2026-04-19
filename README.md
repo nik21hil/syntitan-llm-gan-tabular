@@ -17,5 +17,3 @@ This repository contains:
 
 ---
 
-## 📁 Repository Structure
-
